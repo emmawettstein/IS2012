@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #fff8fb;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Navigation */
+  .nav {
+    background-color: #ff4f92;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #ffe1ec;
+    padding: 1rem 0;
+    margin-top: 10px;
+  }
+  
+  .navbar-nav li {
+    margin: 0 15px;
+  }
+  
+  .navbar-nav a {
+    color: #d4145a;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav a:hover {
+    color: #a10f42;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #ff4f92, #ffb6d1);
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .hero h1 {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Info Section */
+  .info {
+    margin: 2rem auto;
+    max-width: 700px;
+    background-color: #fff0f5;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ffc2d1;
+  }
+  
+  .info h2 {
+    color: #d4145a;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .info ol {
+    padding-left: 1.5rem;
+  }
+  
+  .info li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .info ul {
+    padding-left: 1.5rem;
+    list-style-type: circle;
+  }
+  
+  /* Image Section */
+  .image-block {
+    text-align: center;
+    margin: 2rem auto;
+  }
+  
+  .image-block h2 {
+    color: #d4145a;
+    margin-bottom: 1rem;
+  }
+  
+  .image-block img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
